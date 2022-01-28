@@ -7,9 +7,6 @@ all the illustration from freepik dot com
 
 
 
-## Screenshots
-
-![App Screenshot](https://imgur.com/a/DVuLEmW)
 
 
 ## Tech Stack
