@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://easyitpoint.com/wp-content/uploads/2021/09/cropped-favicon-32x32.png"
-        sizes="32x32" />
+    <link rel="icon" href="assets/img/easyitpoint-favicon.png" sizes="32x32" />
+
     <!--========== BOX ICONS ==========-->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <!--========== CSS ==========-->
@@ -14,33 +14,34 @@
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
     <title>A Web Design and Development Agency</title>
     <meta name="description" content="We are a web design and development agency in Bangladesh. We provide services like web design
-         and development, SEO Services, Digital Marketing, Graphics Design, etc. If you are interested in these
-         services please contact us and we will reply to you as soon as possible.">
+         and development, SEO Services, Digital Marketing, Graphics Design, etc.">
     <meta property="og:title" content="We Are A Web Design and Development Agency - Easy IT Point" />
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 </head>
 
 <body>
-    
-    <!--===============  Header ===============-->
+
+    <!--===== HEADER =====-->
     <header class="l-header">
-        <nav class="nav bd-container">
-            <a href="#home" class=""><img src="assets/img/easyitpoint-logo.svg" alt="logo of easyitpoint"
-                    class="nav__logo"></a>
+        <nav class="nav container grid">
+            <div>
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/easyitpoint-logo.svg" alt="" class="nav__logo-img">
+                </a>
+            </div>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#service" class="nav__link active-link">Services</a></li>
+                    <li class="nav__item"><a href="#home" class="nav__link active">Services</a></li>
                     <li class="nav__item"><a href="#project" class="nav__link">Projects</a></li>
                     <li class="nav__item"><a href="#team" class="nav__link">Our Team</a></li>
                     <li class="nav__item"><a href="#testimonial" class="nav__link">Testimonial</a></li>
                     <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-
                 </ul>
             </div>
 
             <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-grid-alt'></i>
+                <i class='bx bx-menu'></i>
             </div>
         </nav>
     </header>
@@ -49,7 +50,7 @@
     <main class="l-main">
         <!--===============  Home ===============-->
         <section class="home" id="home">
-            <div class="home__container bd-container bd-grid">
+            <div class="home__container container grid">
                 <div class="home__data">
                     <h1 class="home__title">
                         We Are A Web Design and Development Agency
@@ -59,7 +60,8 @@
                         web design and development, SEO Services, Digital Marketing, Graphics Design, etc. If you are
                         interested in these services please contact us and we will reply to you as soon as possible.
                     </p>
-                    <a href="#" class="button">freelancer profile</a>
+                    <a href="https://www.freelancer.com/u/abdulmalek1997" class="button" target="_blank"
+                        rel="noreferrer">freelancer profile</a>
                 </div>
 
                 <div class="home__img">
@@ -69,8 +71,9 @@
         </section>
 
         <!--===============  completed project ===============-->
+
         <section class="completed section">
-            <div class="completed__container bd-container bd-grid">
+            <div class="completed__container container grid">
                 <div class="completed__data">
                     <h3 class="completed__amount">57+</h3>
                     <p class="completed__title">Web Development</p>
@@ -94,6 +97,7 @@
             </div>
         </section>
 
+
         <!--===============  SERVICE ===============-->
         <section class="service section" id="service">
             <h2 class="section-title">Services We Provide</h2>
@@ -101,7 +105,7 @@
                 We don't want to push our ideas on to customers, we simply want to make what they want.
             </p>
 
-            <div class="service__container bd-container bd-grid">
+            <div class="service__container container grid">
 
                 <div class="service__data">
                     <img src="assets/img/design-and-concept.jpg" alt=" computer showing a design" class="service__img">
@@ -167,7 +171,6 @@
             </div>
         </section>
 
-
         <!--===============  projects ===============-->
         <section class="project section" id="project">
             <h2 class="section-title">Our Wonderful Recent Projects</h2>
@@ -175,7 +178,7 @@
                 Without hard work and discipline, it is difficult to be a top professional.
             </p>
 
-            <div class="project__container bd-container bd-grid">
+            <div class="project__container container grid">
 
                 <div class="project__data">
 
@@ -218,6 +221,7 @@
             </div>
         </section>
 
+
         <!--===============  TEAM ===============-->
         <section class="team section" id="team">
             <h2 class="section-title">Teamwork Makes The Dream Work</h2>
@@ -225,7 +229,7 @@
                 Talent wins games, but teamwork and intelligence win championships.
             </p>
 
-            <div class="team__container  bd-container bd-grid">
+            <div class="team__container  container grid">
                 <div class="team__data">
                     <img src="assets/img/team/sajib-hossain-web-design-and-developer.jpg" alt="" class="team__img">
                     <h3 class="project__title">Sajib Hossain</h3>
@@ -263,7 +267,7 @@
                 Talent wins games, but teamwork and intelligence win championships.
             </p>
 
-            <div class="testimonial__container bd-container swiper">
+            <div class="testimonial__container container swiper">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
@@ -362,7 +366,7 @@
                 Give us a message and we will contact you as soon as possible.
             </p>
 
-            <div class="contact__container bd-container bd-grid">
+            <div class="contact__container container grid">
 
                 <div class="contact__form__content">
                     <h3 class="contact__form__title">Contact Form</h3>
@@ -374,7 +378,7 @@
                             <div class="contact__form__inputs">
                                 <input type="text" name="name" placeholder="Name" class="contact__input" required>
                                 <input type="text" name="phone" placeholder="Phone Number" class="contact__input">
-                                
+
                                 <input type="hidden" name="_captcha" value="false">
                             </div>
 
@@ -414,26 +418,30 @@
                     <div class="social">
                         <h3 class="social__title">Message Us</h3>
                         <div class="social__media">
-                            <a href="https://www.facebook.com/easyitpoint/" target="_blank" rel="noreferrer" class="social__icon"><i
-                                    class='bx bxl-facebook'></i></a>
+                            <a href="https://www.facebook.com/easyitpoint/" target="_blank" rel="noreferrer"
+                                class="social__icon"><i class='bx bxl-facebook'></i></a>
                             <a href="https://wa.link/n0l0cx" target="_blank" rel="noreferrer" class="social__icon"><i
                                     class='bx bxl-whatsapp'></i></a>
-                            <a href="https://join.skype.com/invite/uc85gfJtFyZd" target="_blank" rel="noreferrer" class="social__icon"><i
-                                    class='bx bxl-skype'></i></a>
-                            <a href="https://www.linkedin.com/in/sajib-hossain-17929b225/" target="_blank" rel="noreferrer"
-                                class="social__icon"><i class='bx bxl-linkedin'></i></a>
+                            <a href="https://join.skype.com/invite/uc85gfJtFyZd" target="_blank" rel="noreferrer"
+                                class="social__icon"><i class='bx bxl-skype'></i></a>
+                            <a href="https://www.linkedin.com/in/sajib-hossain-17929b225/" target="_blank"
+                                rel="noreferrer" class="social__icon"><i class='bx bxl-linkedin'></i></a>
+
+                            <a href="https://www.pinterest.com/dm_malek/" target="_blank" rel="noreferrer"
+                                class="social__icon"><i class='bx bxl-pinterest'></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
+
     </main>
 
     <!--===============  FOOTER ===============-->
 
     <footer class="footer section">
-        <div class="footer__container bd-container bd-grid">
+        <div class="footer__container container grid">
             <div class="footer__data">
                 <p class="footer__text">contact@easyitpoint.com</p>
                 <p class="footer__text">+88017317-30321</p>
@@ -449,14 +457,14 @@
                 </h3>
 
                 <div class="social__media">
-                    <a href="https://www.facebook.com/easyitpoint/" target="_blank" rel="noreferrer" class="social__icon footer__icon"><i
-                            class='bx bxl-facebook'></i></a>
-                    <a href="https://twitter.com/sajib_hsn" target="_blank" rel="noreferrer" class="social__icon footer__icon"><i
-                            class='bx bxl-twitter'></i></a>
+                    <a href="https://www.facebook.com/easyitpoint/" target="_blank" rel="noreferrer"
+                        class="social__icon footer__icon"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://twitter.com/dstrategy_malek" target="_blank" rel="noreferrer"
+                        class="social__icon footer__icon"><i class='bx bxl-twitter'></i></a>
                     <a href="https://www.linkedin.com/in/sajib-hossain-17929b225/" target="_blank" rel="noreferrer"
                         class="social__icon footer__icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://www.youtube.com/channel/UCJP5Snv9A-BsPlsi1i1rpZg/featured" target="_blank" rel="noreferrer"
-                        class="social__icon footer__icon"><i class='bx bxl-youtube'></i></a>
+                    <a href="https://www.youtube.com/channel/UCJP5Snv9A-BsPlsi1i1rpZg/featured" target="_blank"
+                        rel="noreferrer" class="social__icon footer__icon"><i class='bx bxl-youtube'></i></a>
                 </div>
 
             </div>
@@ -471,8 +479,10 @@
         <p class="footer__copyright">Copyright © easyitpoint - 2022</p>
     </footer>
 
+
     <!--===============  JAVASCRIPT ===============-->
     <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>
