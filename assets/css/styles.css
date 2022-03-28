@@ -66,7 +66,7 @@ body {
 
 .swiper {
     width: 600px;
-    height: 300px;
+    max-height: 600px;
 }
 
 .container {
@@ -745,13 +745,17 @@ body {
 }
 
 @media screen and (max-width: 450px) {
+    .home {
+        padding-top: 3rem;
+    }
+
     .home .home__container .home__title {
         font-size: 2rem;
         line-height: 39px;
     }
 }
 
-@media (width: 320px) {
+@media screen and (max-width: 320px) {
     .home .home__container .home__title {
         font-size: 1.5rem;
         line-height: 30px;
