@@ -137,7 +137,7 @@ body {
     top: 0;
     left: 0;
     z-index: 10;
-    background-color: #f6f7fb;
+    background-color: #fff;
 }
 
 /*===== NAV =====*/
@@ -162,7 +162,7 @@ body {
         width: 80%;
         height: 100%;
         padding: 2rem;
-        background-color: rgba(10, 137, 255, 0.3);
+        background-color: rgba(255, 255, 255, 0.3);
         -webkit-transition: .5s;
         transition: .5s;
         -webkit-backdrop-filter: blur(10px);
@@ -741,5 +741,19 @@ body {
 
     .section-title {
         font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .home .home__container .home__title {
+        font-size: 2rem;
+        line-height: 39px;
+    }
+}
+
+@media (width: 320px) {
+    .home .home__container .home__title {
+        font-size: 1.5rem;
+        line-height: 30px;
     }
 }
