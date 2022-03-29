@@ -135,7 +135,7 @@
      align-items: center;
  }
 
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 775px) {
      .nav__menu {
          position: fixed;
          top: 4rem;
@@ -188,7 +188,7 @@
  }
 
  /*Active menu*/
- @media screen and (min-width: 768px) {
+ @media screen and (min-width: 775px) {
      .nav {
          height: 5rem;
      }
@@ -222,7 +222,9 @@
  /*===============  Classes  ===============*/
  /* =============== Home =============== */
  .home {
-     padding-top: 6rem;
+     min-height: 74vh;
+     display: flex;
+     align-items: center;
  }
 
  .home .home__container {
@@ -254,6 +256,9 @@
  /*===============  COMPLETED PROJECTS ===============*/
  .completed {
      background-color: #162441;
+     min-height: 20vh;
+     display: flex;
+     align-items: center;
  }
 
  .completed .completed__container {
@@ -282,6 +287,7 @@
      -webkit-box-pack: center;
      -ms-flex-pack: center;
      justify-content: center;
+     column-gap: 2.5rem;
  }
 
  .service__container .service__data {
@@ -630,7 +636,7 @@
  }
 
  .contact .contact__container .social .social__media .social__icon {
-     font-size: 1.5rem;
+     font-size: 1.8rem;
      color: #162441;
      -webkit-transition: 0.3s;
      transition: 0.3s;
@@ -676,6 +682,10 @@
      transition: 0.3s;
  }
 
+ .footer .footer__container .footer__data .social__media .footer__icon:not(:last-child) {
+     margin-right: .5rem;
+ }
+
  .footer .footer__container .footer__data .social__media .footer__icon:hover {
      color: #0a8aff;
  }
@@ -698,6 +708,10 @@
 
  /* =============== Media quiries =============== */
  @media screen and (max-width: 846px) {
+     .home {
+         min-height: 100vh;
+     }
+
      .home .home__container {
          grid-template-columns: 1fr;
          align-items: center;
