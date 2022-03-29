@@ -709,7 +709,8 @@
  /* =============== Media quiries =============== */
  @media screen and (max-width: 846px) {
      .home {
-         min-height: 100vh;
+         padding-top: 3rem;
+         height: initial;
      }
 
      .home .home__container {
@@ -741,7 +742,7 @@
 
  @media screen and (max-width: 450px) {
      .home {
-         padding-top: 3rem;
+         padding-top: 2rem;
      }
 
      .home .home__container .home__title {
