@@ -68,3 +68,30 @@ const swiper = new Swiper(".testimonial__container", {
         }
     }
 });
+
+
+
+/*==================== SCROLL REVEAL ANIMATION ====================*/
+const sr = ScrollReveal({
+    distance: '30px',
+    duration: 1800,
+    reset: false,
+});
+
+sr.reveal(`.home__data, .home__img, 
+            .service__data,
+           .project__data,
+           .completed__data,
+           .footer__data,
+           .team__data`, {
+    origin: 'top',
+    interval: 200,
+})
+
+sr.reveal(`.contact__form__content`, {
+    origin: 'left'
+})
+
+sr.reveal(`.contact__details`, {
+    origin: 'right'
+})
