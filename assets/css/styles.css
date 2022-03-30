@@ -123,7 +123,8 @@
 
  /*===== NAV =====*/
  .nav {
-     height: 4rem;
+     /* height: 4rem; */
+     min-height: 10vh;
      display: -webkit-box;
      display: -ms-flexbox;
      display: flex;
@@ -190,7 +191,7 @@
  /*Active menu*/
  @media screen and (min-width: 775px) {
      .nav {
-         height: 5rem;
+         /* height: 5rem; */
      }
 
      .nav__list {
@@ -222,7 +223,7 @@
  /*===============  Classes  ===============*/
  /* =============== Home =============== */
  .home {
-     min-height: 74vh;
+     min-height: 70vh;
      display: flex;
      align-items: center;
  }
@@ -256,7 +257,7 @@
  /*===============  COMPLETED PROJECTS ===============*/
  .completed {
      background-color: #162441;
-     min-height: 20vh;
+     min-height: 24vh;
      display: flex;
      align-items: center;
  }
