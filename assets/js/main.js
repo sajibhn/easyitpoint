@@ -84,6 +84,7 @@ sr.reveal(`.home__data, .home__img,
            .completed__data,
            .footer__data,
            .testimonial,
+           .footer__copyright,
            .team__data`, {
     origin: 'top',
     interval: 200,
