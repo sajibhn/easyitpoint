@@ -190,9 +190,7 @@
 
  /*Active menu*/
  @media screen and (min-width: 775px) {
-     .nav {
-         /* height: 5rem; */
-     }
+     
 
      .nav__list {
          display: -webkit-box;
