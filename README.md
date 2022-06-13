@@ -1,7 +1,7 @@
 
 # Easy IT Point Landing Page
 
-easyitpoint is a agency which me and my friends started.
+easyitpoint is an agency which me and my friends wanted to start.
 It provides services like Web design and development, SEO Services, Digital Marketing,
 Graphics Design, etc.
 
@@ -17,8 +17,8 @@ Graphics Design, etc.
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- GSAP (animation)
-- Swiper JS (slider)
+- GSAP (animation) - [link](https://greensock.com/gsap/)
+- Swiper JS (slider)  - [link](https://swiperjs.com/)
 
 ## What I learned
 - I learned how to use the 12 column CSS grid layout in a website for responsive design.
