@@ -1,10 +1,8 @@
 # Easy IT Point Landing Page
 
-easyitpoint is an agency which me and my friends wanted to start.
-It provides services like Web design and development, SEO Services, Digital Marketing,
-Graphics Design, etc.
+An agency website that provides services like SEO, Web Design and development, and Graphic Design. 
+I have used pure HTML, CSS, and Javascript to build this website.
 
-I have designed and developed this website by using pure HTML, CSS, and Javascript to build this website.
 
 ## Links
 
